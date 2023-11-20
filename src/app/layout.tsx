@@ -18,6 +18,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -25,6 +26,7 @@ export default function RootLayout({
           <AuthProvider>
             <CartProvider>
               <Header />
+                <title>FSW Store</title>
                 <div className='flex-1'>{children}</div>
               <Footer />
             </CartProvider>

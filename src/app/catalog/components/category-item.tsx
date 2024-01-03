@@ -12,7 +12,7 @@ const CategoryItem = ({category}: CategoryItemProps) => {
 
         <div className="flex flex-col">
 
-            <div className="w-full flex h-[´150px] w-full items-center justify-center bg-category-item-gradient rounded-tl-lg rounded-tr-lg">
+            <div className="w-full flex h-[150px] items-center justify-center bg-category-item-gradient rounded-tl-lg rounded-tr-lg">
                 <Image
                     src={category.imageUrl}
                     height={0}
